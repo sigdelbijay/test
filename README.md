@@ -1,10 +1,14 @@
 # Project Title
 
-Project on building relationship database between an object and its attributes.
+Project on building synonym database for entities and building relationship between two different entities.
 
 ## Getting Started
 
-This test application is solely for experimental purpose. Running the application will create a database showing the relationship between an object and its attributes. For the time being 'snow' is choosen as the object.
+This test application is solely for experimental purpose. Running the application will create a synonym database. It takes questionnaires from SQUAD 2.0 dataset articles. It then takes entities from those questions, develops their synonyms, and creates new questionnaires based on those synonyms. It also ranks the synonyms based on their occurences in different sources.
+
+This application develops relationsip between two entities. 
+
+Its still under development.
 
 ### Prerequisites
 

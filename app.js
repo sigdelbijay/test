@@ -1,10 +1,15 @@
 const express = require('express');
-const relation = require('./realtionship');
-const dbConnector = require('./database-connector');
 const app = express();
+
+const dbConnector = require('./database-connector');
+const relation = require('./realtionship');
+const synonym = require('./synonym');
 
 dbConnector.init(app);
 relation.init(app);
+synonym.init(app);
+
+
 
 // app.use((req, res, next) => {
 //     if(app.locals.db){

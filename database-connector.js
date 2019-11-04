@@ -10,7 +10,7 @@
 
         MongoClient.connect(dbUrl)
             .then((client) => {
-                app.locals.db = client.db('MyDb');d
+                app.locals.db = client.db('MyDb');
                 console.log('database connection success');
                 // return client;
             })
